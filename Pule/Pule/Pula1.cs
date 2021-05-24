@@ -1,8 +1,7 @@
 ﻿using System.Collections.Generic;
 public static class Pula1
 {
-    //private static List<PooledObject> _available = new List<PooledObject>();
-    public static List<PooledObject> _available = new List<PooledObject>();
+    private static List<PooledObject> _available = new List<PooledObject>();
     private static List<PooledObject> _inUse = new List<PooledObject>();
 
     public static PooledObject GetObject()
